@@ -125,6 +125,7 @@ nav ul li a {
 .hero-buttons .btn-whatsapp {
   background-color: white;
 }
+
 /* section 2*/
 .section-div {
   padding-top: 50px;
@@ -175,4 +176,98 @@ nav ul li a {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* section 3*/
+#section3 {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 80px;
+}
+
+/* Kotak Call to Action */
+.cta-box {
+  padding: 45px 35px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1818;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.cta-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.cta-buttons .btn {
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-buttons .btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.cta-buttons .btn-email {
+  background-color: #8e282a;
+  color: white;
+}
+
+.cta-buttons .btn-email img.icon {
+  height: 1.2em;
+  width: auto;
+  margin-right: 8px;
+}
+.how-i-work-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.how-i-work-image {
+  flex-basis: 40%;
+}
+
+.how-i-work-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.how-i-work-text {
+  flex-basis: 60%;
+}
+
+.how-i-work-text h4 {
+  font-family: "Crimson Text", serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.how-i-work-text p {
+  font-family: "Crimson Text", serif;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  color: #e0e0e0;
 }
