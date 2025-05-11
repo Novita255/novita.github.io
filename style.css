@@ -271,3 +271,50 @@ nav ul li a {
   line-height: 1.6;
   color: #e0e0e0;
 }
+
+
+/* section 4*/
+#section4 {
+  padding: 80px 10px;
+}
+
+.why-hire-me-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 100px;
+}
+
+.why-hire-me-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  text-align: center;
+}
+
+.reason-item {
+  flex-basis: 30%;
+}
+
+.reason-profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.reason-title {
+  font-family: "Crimson Text", serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.reason-description {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
