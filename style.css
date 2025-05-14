@@ -318,3 +318,153 @@ nav ul li a {
   line-height: 1.6;
   color: #e0e0e0;
 }
+/* section 5*/
+#section5 {
+  padding: 100px 20px;
+  margin-top: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1c1818;
+  position: relative;
+}
+
+/* Tombol navigasi slider testimoni */
+.testimonial-nav {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 10;
+}
+
+.testimonial-nav img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
+.testimonial-nav.prev {
+  margin-right: 50px;
+}
+
+.testimonial-nav.next {
+  margin-left: 50px;
+}
+
+/* Konten testimoni */
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-grow: 1;
+  position: relative;
+  margin-left: 100px;
+}
+
+.testimonial-image-container {
+  flex-shrink: 0;
+  margin-top: -390px; /* Posisi foto testimoni berada di luar card */
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 5;
+}
+
+.testimonial-pic {
+  width: 390px;
+  height: auto;
+  display: block;
+}
+
+.testimonial-quote-container {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.testimonial-quote {
+  font-family: "Crimson Text", serif;
+  font-size: 2.2rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-top: 0;
+  margin-bottom: -25px;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-family: "Crimson Text", serif;
+  font-size: 2.1rem;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.placeholder-text {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+/*footer*/
+.site-footer {
+  background-color: #1c1818;
+  padding: 80px 40px;
+  text-align: center;
+  margin: 80px 20px 30px 20px;
+}
+
+.footer-heading {
+  font-family: "Crimson Text", serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-subheading {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-email {
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.footer-email:hover {
+  color: #ccc;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-social-icons .social-icon img {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  padding: 5px;
+  display: block;
+}
